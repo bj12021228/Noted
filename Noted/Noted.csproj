@@ -4,4 +4,25 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Update="wwwroot\css\home\home.css">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>home.scss</DependentUpon>
+    </Content>
+    <Content Update="wwwroot\css\home\home.scss">
+      <Generator>SassTranspiler</Generator>
+      <LastGenOutput>home.css</LastGenOutput>
+    </Content>
+    <Content Update="wwwroot\css\shared\main.css">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>main.scss</DependentUpon>
+    </Content>
+    <Content Update="wwwroot\css\shared\main.scss">
+      <Generator>SassTranspiler</Generator>
+      <LastGenOutput>main.css</LastGenOutput>
+    </Content>
+  </ItemGroup>
+
 </Project>
